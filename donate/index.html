@@ -1,0 +1,101 @@
+---
+layout: default
+extraCSS: donate.css
+extraScript: [parallax_donate.js]
+navPosition: "static"
+bodyPage : "False"
+footerBuffer: "True"
+---
+<main class="content">
+    <!-- Keep-running -->
+    <div id="keep-running">
+        <div class="container container-double">
+            <h3 class="text-center">Want to keep NewPipe running?</h3>
+            <div class="row">
+                <div class="col-sm-10 col-sm-push-1 col-md-6 col-md-push-0">
+                    <p class="red donate-section-title"><strong><i class="fa fa-wrench wrench-large"></i>&nbsp;&nbsp;Support your favourite feature</strong></p>
+                    <p>By donating, you allow contributors to spend more time on NewPipe and work using better hardware. They will fix more bugs, implement more features, and make everyone happier! •<b style="position: relative; top: 1.5px;">ᴗ</b>•</p>
+                </div>
+                <div class="col-sm-10 col-sm-push-1 col-md-6 col-md-push-0">
+                    <p class="red donate-section-title"><strong><img src="../img/people-red.svg" class="people-large">&nbsp;&nbsp;We put donations to good use</strong></p>
+                    <p>The donations are handled by <a href="https://newpipe-ev.de">NewPipe e.V.</a>, which hires developers to work on NewPipe, buys merch for contributors, sends representatives to open source conferences, supports libre media streaming technology, <a href="https://newpipe-ev.de/blog/">and more</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div> <!-- Keep-running -->
+
+    <!-- parallax background for header -->
+    <div id="parallax-background"></div>
+    <div class="phone-background">
+        <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="{{ site.baseurl }}/img/phone_with_logo.png" alt="phone with NewPipe logo" />
+            </div>
+        </div>
+        </div>
+    </div>
+    <div id="donate-wrapper">
+        <div id="donate">
+            <div class="container container-double">
+                <div class="row">
+                    <div class="col-sm-offset-4">
+                        <div class="row" id="sorted-row">
+                            <div class="col-sm-12" id="donate-title">
+                                <h3 class="with-subtitle">Do you like what we did so far?</h3>
+                                <p class="subtitle">Help us to bring NewPipe forward!</p>
+                            </div>
+                            <div class="col-xs-12 col-lg-10" id="button-container">
+                                <div class="row" style="width: 100%;">
+                                    <div class="col-sm-12 col-lg-6">
+                                        <div class="button-wrapper" id="liberapay-donation">
+                                            <a href="https://liberapay.com/TeamNewPipe/" target="_blank"
+                                               class="button button-large action donate" title="Donate to NewPipe via Liberapay">
+                                                Liberapay
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-6">
+                                        <div class="button-wrapper" id="paypal-donation">
+                                            <a href="https://www.paypal.com/donate/?hosted_button_id=MZXL7WW8DXZBJ" target="_blank"
+                                               class="button button-large action donate" title="Donate to NewPipe via PayPal">
+                                                PayPal
+                                                <div class="donate-action-subtitle">(higher fees)</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="col-sm-12">
+                                        <div class="button-wrapper button action donate" id="bank-transfer-donation">
+                                            <h4>Bank transfer</h4>
+                                            <table>
+                                                <tbody>
+                                                    <tr><th scope="row">Account holder:</th><td>NewPipe e.V.</td></tr>
+                                                    <tr><th scope="row">IBAN:</th><td>DE94 4306 0967 1308 7563 00</td></tr>
+                                                    <tr><th scope="row">Bank:</th><td><a href="https://www.gls.de/impressum/">GLS Gemeinschaftsbank eG</a></td></tr>
+                                                    <tr><th scope="row">BIC:</th><td>GENODEM1GLS</td></tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Thanks -->
+    <div id="thanks">
+        <div class="container container-double">
+            <h3 class="text-center red">Thank you!</h3>
+            <p class="text-center">Thank you for your donation!</p>
+            <p class="text-center"><strong>Remember:</strong> You can get NewPipe for <strong>free</strong>.</p>
+            <p class="text-center">That's why any kind of help is welcome. Learn more on <a href="https://github.com/TeamNewPipe/NewPipe/" class="red"><strong>GitHub</strong></a>.</p>
+            <br>
+        </div>
+    </div> <!-- Thanks -->
+
+</main> <!-- main content -->
